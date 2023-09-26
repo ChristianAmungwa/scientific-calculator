@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import * as math from 'mathjs';
 import Button from './Button';
 //import Display from './Display';
-import './Calculator.css';  // Make sure the path to this CSS file is correct
+import './Calculator.css';
 
 const Calculator = () => {
   const [input, setInput] = useState("");
